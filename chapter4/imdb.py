@@ -1,4 +1,4 @@
-import string
+import re
 import unicodedata
 from pathlib import Path
 import numpy as np
@@ -65,11 +65,10 @@ def tokenize(text):
 
 def is_valid(token):
     """returns True if `token` is a valid token"""
-    invalid = string.punctuation + string.whitespace
     if any(c.isdigit() for c in token):
         # reject any token that contains at least one digit
         return False
-    elif all(c in invalid for c in token):
+    elif not re.search(r'\w', token):
         # reject tokens composed of invalid characters only,
         # except the question and exclamation marks
         return token in ('?', '!')
