@@ -7,7 +7,7 @@ Download the dataset located here: https://ai.stanford.edu/~amaas/data/sentiment
 
 Prepare the dataset
 
-    python preprocess_dataset.py ~/data/gentlenlp/aclImdb out
+    python preprocess_dataset.py ~/data/gentlenlp/aclImdb out --compress
 
 Train the perceptron:
 
