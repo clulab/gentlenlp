@@ -80,7 +80,7 @@ def is_valid(token):
 def to_numpy(all_token_ids, all_labels, vocabulary):
     n_rows = len(all_token_ids)
     n_cols = len(vocabulary)
-    X = np.zeros((n_rows, n_cols), dtype=np.int32)
+    X = np.zeros((n_rows, n_cols), dtype=np.int16)
     y = np.zeros(n_rows, dtype=np.bool)
     for i in range(n_rows):
         y[i] = all_labels[i] == 'pos'
