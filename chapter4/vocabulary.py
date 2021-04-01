@@ -1,9 +1,9 @@
 class Vocabulary:
 
     def __init__(self, i2t=None):
-        # id to term
+        # if no index to term mapping is provided then we start with an empty list
         self.i2t = [] if i2t is None else i2t
-        # term to id
+        # make map from term to id by inverting the id to term mapping above
         self.t2i = {t:i for i,t in enumerate(self.i2t)}
         # add special tokens
         self.unk_token = '[UNK]'
