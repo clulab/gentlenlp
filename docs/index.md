@@ -19,6 +19,12 @@ Our code is licensed as [Apache License Version 2.0](https://github.com/clulab/g
 # Citations
 
 ```
-add here
+@Book{surdeanuvalenzuela2022,
+      title = {Deep Learning for Natural Language Processing: A Gentle Introduction},
+      author = {Mihai Surdeanu and Marco A. Valenzuela-Esc\'{a}rcega},
+      year = {2022},
+      publisher = "Cambridge University Press",
+      address = "Cambridge, United Kingdom"
+}
 ```
 
