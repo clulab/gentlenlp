@@ -6,7 +6,7 @@ nav_order: 1
 
 # What is it?
 
-This repository contains the code introduced in the book "Deep Learning for Natural Language Processing: A Gentle Introduction."
+This repository contains the code introduced in the book *Deep Learning for Natural Language Processing: A Gentle Introduction*.
 
 # Authors
 
@@ -16,7 +16,7 @@ This repository contains the code introduced in the book "Deep Learning for Natu
 
 Our code is licensed as [Apache License Version 2.0](https://github.com/clulab/gentlenlp/blob/main/LICENSE)
 
-# Citations
+# Citation
 
 ```
 @Book{surdeanuvalenzuela2022,
