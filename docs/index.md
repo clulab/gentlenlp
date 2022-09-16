@@ -6,7 +6,7 @@ nav_order: 1
 
 # What is it?
 
-This repository contains the code introduced in the book "Deep Learning for Natural Language Processing: A Gentle Introduction" by Mihai Surdeanu and Marco A. Valenzuela-Escarcega.
+This repository contains the code introduced in the book "Deep Learning for Natural Language Processing: A Gentle Introduction."
 
 # Authors
 
