@@ -38,11 +38,11 @@ TODO
 
 ## Pre-trained English Word Embeddings
 
-Please download the [these GloVe embeddings](https://nlp.stanford.edu/data/glove.6B.zip) from the [Stanford GloVe website](https://nlp.stanford.edu/projects/glove/). Once the `glove.6B.zip` file is downloaded, uncompress it and place the extracted `glove.6B.300d.txt` in the `notebooks/` folder.
+Please download the [these GloVe embeddings](https://nlp.stanford.edu/data/glove.6B.zip) from the [Stanford GloVe website](https://nlp.stanford.edu/projects/glove/). Once the `glove.6B.zip` file is downloaded, uncompress it and place the extracted `glove.6B.300d.txt` file in the `notebooks/` folder.
 
 ## Pre-trained Spanish Word Embeddings
 
-Please download the [these Spanish GloVe embeddings](http://dcc.uchile.cl/~jperez/word-embeddings/glove-sbwc.i25.vec.gz) from the [Spanish Word Embeddings GitHub repository](github](https://github.com/dccuchile/spanish-word-embeddings). Once the `glove-sbwc.i25.vec.gz` file is downloaded, uncompress it and place the extracted `` in the `notebooks/` folder.
+Please download the [these Spanish GloVe embeddings](http://dcc.uchile.cl/~jperez/word-embeddings/glove-sbwc.i25.vec.gz) from the [Spanish Word Embeddings GitHub repository](github](https://github.com/dccuchile/spanish-word-embeddings). Once the `glove-sbwc.i25.vec.gz` file is downloaded, uncompress it and place the extracted `glove-sbwc.i25.vec` file in the `notebooks/` folder.
 
 ## Part-of-speech Tagging
 
