@@ -4,7 +4,7 @@ has_children: false
 nav_order: 2
 ---
 
-# Setting Up Conda Environment
+# Setting Up Your Conda Environment
 
 Before you start, please set up a new conda environment as follows:
 
@@ -25,4 +25,26 @@ Environments in which this code was tested:
 - [Linux machine with a GPU](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_gpu.yml)
 - [Linux machine without a GPU](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_cpu.yml)
 - [M1 Mac](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_mac.yml)
+
+# Datasets Used 
+
+## Binary Classification
+
+For binary classification we used the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) created by Andrew Maas. Because this dataset allows redistribution, we copied it in this repository at this location: [https://github.com/clulab/gentlenlp/tree/main/notebooks/data/aclImdb](https://github.com/clulab/gentlenlp/tree/main/notebooks/data/aclImdb). Please see the [dataset's README](https://github.com/clulab/gentlenlp/blob/main/notebooks/data/aclImdb/README) for more details, including the appropriate citation if you use this dataset in research publications. 
+
+## Multiclass Classification
+
+
+
+## Part-of-speech Tagging
+
+
+
+## Machine Translation
+
+
+
+
+
+
 
