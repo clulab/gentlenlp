@@ -46,8 +46,7 @@ Please download the [these Spanish GloVe embeddings](http://dcc.uchile.cl/~jpere
 
 ## Part-of-speech Tagging
 
-TODO
-
+Download the [Universal Dependencies version 2.10](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-4758/ud-treebanks-v2.10.tgz?sequence=1&isAllowed=y) from the [Universal Dependencies website](https://universaldependencies.org). 
 
 
 
