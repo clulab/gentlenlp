@@ -8,6 +8,8 @@ nav_order: 1
 
 This repository contains the code introduced in the book *Deep Learning for Natural Language Processing: A Gentle Introduction*.
 
+A draft of the book is available here: http://clulab.cs.arizona.edu/gentlenlp.php
+
 # Authors
 
 [Mihai Surdeanu](http://surdeanu.info/mihai/), [Marco Valenzuela](https://github.com/marcovzla)
