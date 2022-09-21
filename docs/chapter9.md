@@ -6,7 +6,7 @@ nav_order: 5
 
 # Word Similarity and Analogy
 
-This notebook shows how to use pre-trained word embeddings for word similarity and word analogy experiments: [chap09_embeddings](https://github.com/clulab/gentlenlp/blob/main/notebooks/chap09_embeddings.ipynb)
+This notebook shows how to use pre-trained word embeddings for word similarity and word analogy experiments: [chap09_embeddings](https://github.com/clulab/gentlenlp/blob/main/notebooks/chap09_embeddings.ipynb).
 
 # Text Classification Using Word Embeddings
 
