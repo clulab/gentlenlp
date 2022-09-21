@@ -26,21 +26,19 @@ Environments in which this code was tested:
 - [Linux machine without a GPU](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_cpu.yml)
 - [M1 Mac](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_mac.yml)
 
-# Datasets Used 
+# External Datasets Used 
 
 ## Binary Classification
 
-For binary classification we used the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) created by Andrew Maas. Because this dataset allows redistribution, we copied it in this repository at this location: [https://github.com/clulab/gentlenlp/tree/main/notebooks/data/aclImdb](https://github.com/clulab/gentlenlp/tree/main/notebooks/data/aclImdb), which is the location expected by the notebooks that implementing binary classifiers. Please see the [dataset's README](https://github.com/clulab/gentlenlp/blob/main/notebooks/data/aclImdb/README) for more details, including the appropriate citation if you use this dataset in research publications. 
+For binary classification we used the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) created by Andrew Maas. Because this dataset allows redistribution, we copied it in this repository at this location: [https://github.com/clulab/gentlenlp/tree/main/notebooks/data/aclImdb](https://github.com/clulab/gentlenlp/tree/main/notebooks/data/aclImdb), which is the location expected by the notebooks that implement binary classifiers. Please see the [dataset's README](https://github.com/clulab/gentlenlp/blob/main/notebooks/data/aclImdb/README) for more details, including the appropriate citation if you use this dataset in research publications. 
 
 ## Multiclass Classification
 
-
+TODO
 
 ## Part-of-speech Tagging
 
-
-
-## Machine Translation
+TODO
 
 
 
