@@ -16,7 +16,7 @@ A draft of the book is available here: [http://clulab.cs.arizona.edu/gentlenlp.p
 
 # License
 
-Our code is licensed as [Apache License Version 2.0](https://github.com/clulab/gentlenlp/blob/main/LICENSE)
+Our code is licensed as [Apache License Version 2.0](https://github.com/clulab/gentlenlp/blob/main/LICENSE).
 
 # Citation
 
