@@ -34,7 +34,7 @@ For binary classification we used the [Large Movie Review Dataset](https://ai.st
 
 ## Multiclass Classification
 
-TODO
+TODO: downloaded from here: http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html. Preprocessed using this script.
 
 ## Pre-trained English Word Embeddings
 
