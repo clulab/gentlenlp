@@ -253,4 +253,3 @@ dependencies:
     - conllu==4.5.2
     - pyqt5-sip==12.11.0
     - pyyaml==6.0
-prefix: /Users/msurdeanu/miniconda3/envs/transformers
