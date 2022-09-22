@@ -53,7 +53,7 @@ Please download the [these Spanish GloVe embeddings](http://dcc.uchile.cl/~jpere
 
 ## Part-of-speech Tagging
 
-For part-of-speech tagging with recurrent neural networks we used the Spanish AnCora dataset that is included in the 
+For part-of-speech tagging we used the Spanish AnCora dataset that is included in the 
 [Universal Dependencies version 2.8 dataset](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3720/deep-ud-2.8-data.tgz?sequence=1&isAllowed=y). Its license does not allow redistribution, so please download the UD version 2.8 dataset from [here](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3720/deep-ud-2.8-data.tgz?sequence=1&isAllowed=y). Uncompress the downloaded `deep-ud-2.8-data.tgz` file, and copy the `UD_Spanish-AnCora` folder under `notebooks/data/` in your repository.
 
 

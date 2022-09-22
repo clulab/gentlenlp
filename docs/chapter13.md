@@ -12,7 +12,7 @@ This notebook implements a text classifier using DistilBERT: [chap13_classificat
 
 # Part-of-speech Tagging with Transformer Networks
 
-This notebook implements a part-of-speech tagger for Spanish using the : [chap13_pos_tagging](https://github.com/clulab/gentlenlp/blob/main/notebooks/chap13_pos_tagging.ipynb).
+This notebook implements a part-of-speech tagger for Spanish using the XLM-Roberta transformer: [chap13_pos_tagging](https://github.com/clulab/gentlenlp/blob/main/notebooks/chap13_pos_tagging.ipynb).
 
 
 
