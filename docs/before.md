@@ -23,8 +23,17 @@ conda install -c huggingface -c conda-forge datasets
 
 If your machine machine has an Nvidia GPU:
 ```
-TODO
+conda create --name book
+conda activate book
+
+conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
+conda install jupyter pandas matplotlib scikit-learn gensim nltk
+pip install conllu
+conda install -c huggingface transformers
+conda install -c huggingface -c conda-forge datasets
+
 ```
+(See https://pytorch.org/get-started/locally/ for PyTorch installation instructions on other platforms.)
 
 Note that as these libraries evolve you may run into versions that are no longer compatible with this code. To control for this situation, we list below the exact environments that were used to test this code. You can install any of these using the command `conda env create -f <ENVIRONMENT-NAME>`, e.g., `conda env create -f environment_gpu.yml` to install the environment for a Linux machine with GPU.
 
