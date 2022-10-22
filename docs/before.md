@@ -14,11 +14,12 @@ If your machine does not have a GPU:
 conda create --name book
 conda activate book
 
+conda install pip
 conda install pytorch torchvision torchaudio torchtext cpuonly -c pytorch
 conda install jupyter pandas matplotlib scikit-learn gensim nltk
 pip install conllu
-conda install -c huggingface transformers
-conda install -c huggingface -c conda-forge datasets
+pip install transformers
+pip install datasets
 ```
 
 If your machine machine has an Nvidia GPU:
@@ -26,12 +27,12 @@ If your machine machine has an Nvidia GPU:
 conda create --name book
 conda activate book
 
+conda install pip
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
 conda install jupyter pandas matplotlib scikit-learn gensim nltk
 pip install conllu
-conda install -c huggingface transformers
-conda install -c huggingface -c conda-forge datasets
-
+pip install transformers
+pip install datasets
 ```
 (See https://pytorch.org/get-started/locally/ for PyTorch installation instructions on other platforms.)
 
