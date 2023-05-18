@@ -1,5 +1,5 @@
 ---
-title: Chapter 7
+title: Code from Chapter 7
 has_children: false
 nav_order: 4
 ---
