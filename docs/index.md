@@ -6,9 +6,9 @@ nav_order: 1
 
 # What is it?
 
-This repository contains the code introduced in the book *Deep Learning for Natural Language Processing: A Gentle Introduction*.
+This repository contains the text and code from the book *Deep Learning for Natural Language Processing: A Gentle Introduction*.
 
-A draft of the book is available here: [https://clulab.org/gentlenlp.html](https://clulab.org/gentlenlp.html).
+A draft of the book is available under the Text tab. Slides are included in the Slides tab.
 
 # Authors
 
