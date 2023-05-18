@@ -14,3 +14,4 @@ nav_order: 3
 * [Chapter 10](slides/nnintro-ch10-transformer.pptx)
 * [Chapter 14](slides/nnintro-ch14-decoder.pptx)
 
+You are welcome to use the slides any way you wish. But we would appreciate providing credit. And, optionally, dropping us a note if you found them useful.
