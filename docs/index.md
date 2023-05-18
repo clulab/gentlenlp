@@ -8,7 +8,7 @@ nav_order: 1
 
 This repository contains the text and code from the book *Deep Learning for Natural Language Processing: A Gentle Introduction*.
 
-A draft of the book is available under the Text tab. Slides are included in the Slides tab.
+A draft of the book is available under the Text tab. Slides are included in the Slides tab. The entire code discussed in the book and here is available in this GitHub repository: https://github.com/clulab/gentlenlp.
 
 # Authors
 
