@@ -6,7 +6,7 @@ nav_order: 2
 
 # Text
 
-Latest draft: [May 11, 2023](gentlenlp/book/gentlenlp-book-05112023.pdf)
+Latest draft: [May 11, 2023](book/gentlenlp-book-05112023.pdf)
 
 # Changes
 
