@@ -6,10 +6,11 @@ nav_order: 2
 
 # Text
 
-Latest draft: [May 11, 2023](book/gentlenlp-book-05112023.pdf)
+Latest draft: [June 16, 2023](book/gentlenlp-book-06162023.pdf)
 
 # Changes
 
+* **06/16/2023:** One full pass over the text until chapter 11 (including). Fixed several embarrassing mistakes, typos, and grammatical issues. 
 * **05/11/2023:** Improved introduction. Fixes several bugs in chapter 5 and 12.
 * **12/23/2022:** Added index. Various small changes.
 * **08/17/2022:** Added Appendix A. Many small changes.
