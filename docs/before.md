@@ -16,7 +16,7 @@ conda activate book
 
 conda install pip
 conda install pytorch torchvision torchaudio torchtext cpuonly -c pytorch
-conda install jupyter pandas matplotlib scikit-learn gensim nltk
+conda install jupyter pandas matplotlib scikit-learn gensim nltk sacrebleu
 pip install conllu
 pip install transformers
 pip install datasets
@@ -29,7 +29,7 @@ conda activate book
 
 conda install pip
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
-conda install jupyter pandas matplotlib scikit-learn gensim nltk
+conda install jupyter pandas matplotlib scikit-learn gensim nltk sacrebleu
 pip install conllu
 pip install transformers
 pip install datasets
