@@ -17,9 +17,8 @@ conda activate book
 conda install pip
 conda install pytorch torchvision torchaudio torchtext cpuonly -c pytorch
 conda install jupyter pandas matplotlib scikit-learn gensim nltk
-pip install conllu
-pip install transformers
-pip install datasets
+pip install conllu transformers datasets
+pip install accelerate -U
 ```
 
 If your machine machine has an Nvidia GPU:
