@@ -28,15 +28,26 @@ conda create --name book
 conda activate book
 
 conda install pip
+```
+
+Then install PyTorch with GPU support using the instructions on this page: [https://pytorch.org/get-started/previous-versions/](https://pytorch.org/get-started/previous-versions/). For example, in Summer 2023, we used:
+```
 conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
+```
+In Summer 2024, we used:
+```
+conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+Lastly, install a few more needed packages:
+```
 conda install jupyter pandas matplotlib scikit-learn gensim nltk
-pip install conllu
-pip install transformers
-pip install datasets
+pip install conllu transformers datasets
+pip install accelerate -U
 ```
 (See https://pytorch.org/get-started/locally/ for PyTorch installation instructions on other platforms.)
 
-Note that as these libraries evolve you may run into versions that are no longer compatible with this code. To control for this situation, we list below the exact environments that were used to test this code. You can install any of these using the command `conda env create -f <ENVIRONMENT-NAME>`, e.g., `conda env create -f environment_gpu.yml` to install the environment for a Linux machine with GPU.
+Note that as these libraries evolve you may run into versions that are no longer compatible with this code. To control for this situation, we list below the exact environments that were used to test this code when we wrote the book. You can install any of these using the command `conda env create -f <ENVIRONMENT-NAME>`, e.g., `conda env create -f environment_gpu.yml` to install the environment for a Linux machine with GPU.
 
 Environments in which this code was tested:
 - [Linux machine with a GPU](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_gpu.yml)
