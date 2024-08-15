@@ -6,39 +6,49 @@ nav_order: 4
 
 # Setting Up Your Conda Environment
 
+Before you start, please set up a new conda environment as follows.
 
-Install miniconda by following the instructions under "Quick command line install" for your operating system here: https://docs.anaconda.com/miniconda/. 
+If your machine does not have a GPU:
 
-Create and activate the conda environment for the book:
 ```
 conda create --name book
 conda activate book
-```
 
-Install PyTorch by selecting the appropriate parameters on this page: https://pytorch.org. Note that if your computer has a Nvidia GPU, you should select one of the CUDA version for Compute Platform (ideally, the most recent one). 
-
-For example, for Mac OS, the configuration should look like this:
-
-[[images/pytorch-macos.png]]
-
-Then, run the indicated command. For example, for Macs the command generated is:
-
-```
-conda install pytorch::pytorch torchvision torchaudio -c pytorch
-```
-
-Lastly, install a few more needed packages:
-```
 conda install pip
+conda install pytorch torchvision torchaudio torchtext cpuonly -c pytorch
 conda install jupyter pandas matplotlib scikit-learn gensim nltk
 pip install conllu transformers datasets
 pip install accelerate -U
 ```
 
-# Environments in which this Code was Tested
+If your machine machine has an Nvidia GPU:
+```
+conda create --name book
+conda activate book
+
+conda install pip
+```
+
+Then install PyTorch with GPU support using the instructions on this page: [https://pytorch.org/get-started/previous-versions/](https://pytorch.org/get-started/previous-versions/). For example, in Summer 2023, we used:
+```
+conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
+```
+In Summer 2024, we used:
+```
+conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+Lastly, install a few more needed packages:
+```
+conda install jupyter pandas matplotlib scikit-learn gensim nltk
+pip install conllu transformers datasets
+pip install accelerate -U
+```
+(See https://pytorch.org/get-started/locally/ for PyTorch installation instructions on other platforms.)
 
 Note that as these libraries evolve you may run into versions that are no longer compatible with this code. To control for this situation, we list below the exact environments that were used to test this code when we wrote the book. You can install any of these using the command `conda env create -f <ENVIRONMENT-NAME>`, e.g., `conda env create -f environment_gpu.yml` to install the environment for a Linux machine with GPU.
 
+Environments in which this code was tested:
 - [Linux machine with a GPU](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_gpu.yml)
 - [Linux machine without a GPU](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_cpu.yml)
 - [M1 Mac](https://github.com/clulab/gentlenlp/blob/main/notebooks/environment_mac.yml)
