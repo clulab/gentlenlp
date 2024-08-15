@@ -7,7 +7,7 @@ nav_order: 4
 # Setting Up Your Conda Environment
 
 
-Install miniconda by following the instructions under "Quick command line install" for your operating system here: https://docs.anaconda.com/miniconda/. 
+Install miniconda by following the instructions under "Quick command line install" for your operating system here: [https://docs.anaconda.com/miniconda/](https://docs.anaconda.com/miniconda/). 
 
 Create and activate the conda environment for the book:
 ```
@@ -15,11 +15,13 @@ conda create --name book
 conda activate book
 ```
 
-Install PyTorch by selecting the appropriate parameters on this page: https://pytorch.org. Note that if your computer has a Nvidia GPU, you should select one of the CUDA version for Compute Platform (ideally, the most recent one). 
+Install PyTorch by selecting the appropriate parameters on this page: [https://pytorch.org](https://pytorch.org). Note that if your computer has a Nvidia GPU, you should select one of the CUDA version for Compute Platform (ideally, the most recent one). 
 
 For example, for Mac OS, the configuration should look like this:
+<img src="images/pytorch-macos.png">
 
-[[images/pytorch-macos.png]]
+For a Linux machine with an Nvidia GPU, the configuration should look like this:
+<img src="images/pytorch-linux.png">
 
 Then, run the indicated command. For example, for Macs the command generated is:
 
