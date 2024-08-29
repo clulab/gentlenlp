@@ -6,7 +6,8 @@ nav_order: 3
 
 # Slides
 
-* [Chapter 2](slides/nnintro-ch2-perceptron.pptx)
+* [Chapter 1](slides/nnintro-ch1.pptx) (last modified: 8/29/2024)
+* [Chapter 2](slides/nnintro-ch2-perceptron.pptx) (last modified: 8/29/2024)
 * [Chapter 3](slides/nnintro-ch3-lr.pptx)
 * [Chapter 5](slides/nnintro-ch5-ffnn.pptx)
 * [Chapter 6](slides/nnintro-ch6-best.pptx)
