@@ -4,7 +4,7 @@ has_children: false
 nav_order: 3
 ---
 
-# Slides
+# Slides for book chapters
 
 * [Chapter 1](slides/nnintro-ch1.pptx) (last modified: 8/29/2024)
 * [Chapter 2](slides/nnintro-ch2-perceptron.pptx) (last modified: 8/29/2024)
@@ -15,5 +15,9 @@ nav_order: 3
 * [Chapter 10](slides/nnintro-ch10-transformer.pptx)
 * [Chapter 14](slides/nnintro-ch14-decoder.pptx)
 * [Chapter 16](slides/nnintro-ch16.pptx)
+
+# Slides for content not in the book
+
+* [Prompt engineering](slides/nnintro-prompt.pptx) (last modified: 9/02/2024)
 
 You are welcome to use the slides any way you wish. But we would appreciate providing credit. And, optionally, dropping us a note if you found them useful.
