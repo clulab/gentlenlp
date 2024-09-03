@@ -7,7 +7,7 @@ nav_order: 3
 # Slides for book chapters
 
 * [Chapter 1](slides/nnintro-ch1.pptx) (last modified: 8/29/2024)
-* [Chapter 2](slides/nnintro-ch2-perceptron.pptx) (last modified: 8/29/2024)
+* [Chapter 2](slides/nnintro-ch2-perceptron.pptx) (last modified: 9/3/2024)
 * [Chapter 3](slides/nnintro-ch3-lr.pptx)
 * [Chapter 5](slides/nnintro-ch5-ffnn.pptx)
 * [Chapter 6](slides/nnintro-ch6-best.pptx)
@@ -18,6 +18,6 @@ nav_order: 3
 
 # Slides for content not in the book
 
-* [Prompt engineering](slides/nnintro-prompt.pptx) (last modified: 9/02/2024)
+* [Prompt engineering](slides/nnintro-prompt.pptx) (last modified: 9/2/2024)
 
 You are welcome to use the slides any way you wish. But we would appreciate providing credit. And, optionally, dropping us a note if you found them useful.
