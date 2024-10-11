@@ -10,7 +10,7 @@ nav_order: 3
 * [Chapter 2](slides/nnintro-ch2-perceptron.pptx) (last modified: 9/3/2024)
 * [Chapter 3](slides/nnintro-ch3-lr.pptx) (last modified: 9/30/2024)
 * [Chapter 4](slides/nnintro-ch4-lr.pptx) (last modified: 10/09/2024)
-* [Chapter 5](slides/nnintro-ch5-ffnn.pptx) (last modified: 10/09/2024)
+* [Chapter 5](slides/nnintro-ch5-ffnn.pptx) (last modified: 10/10/2024)
 * [Chapter 6](slides/nnintro-ch6-best.pptx)
 * [Chapter 8](slides/nnintro-ch8-dist.pptx)
 * [Chapter 10](slides/nnintro-ch10-transformer.pptx)
