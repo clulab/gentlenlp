@@ -16,10 +16,11 @@ nav_order: 3
 * [Chapter 10](slides/nnintro-ch10-rnn.pptx) (last modified: 10/31/2024)
 * [Chapter 12](slides/nnintro-ch12-transformer.pptx) (last modified: 11/7/2024)
 * [Chapter 14](slides/nnintro-ch14-decoder.pptx) (last modified: 11/20/2024)
-* [Chapter 16](slides/nnintro-ch16.pptx)
+* [Chapter 16](slides/nnintro-ch16.pptx) (last modified: 11/20/2024)
 
 # Slides for content not in the book
 
 * [Prompt engineering](slides/nnintro-prompt.pptx) (last modified: 9/2/2024)
+* [Large language models](slides/LLM-stanford-24aug2024.pptx] (last modified: 10/20/2024; these slides are mostly from the [SLP book, 3rd edition](https://web.stanford.edu/~jurafsky/slp3/))
 
 You are welcome to use the slides any way you wish. But we would appreciate providing credit. And, optionally, dropping us a note if you found them useful.
