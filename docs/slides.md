@@ -21,6 +21,6 @@ nav_order: 3
 # Slides for content not in the book
 
 * [Prompt engineering](slides/nnintro-prompt.pptx) (last modified: 9/2/2024)
-* [Large language models](slides/LLM-stanford-24aug2024.pptx] (last modified: 10/20/2024; these slides are mostly from the [SLP book, 3rd edition](https://web.stanford.edu/~jurafsky/slp3/))
+* [Large language models](slides/LLM-stanford-24aug2024.pptx) (last modified: 10/20/2024; these slides are mostly from the [SLP book, 3rd edition](https://web.stanford.edu/~jurafsky/slp3/))
 
 You are welcome to use the slides any way you wish. But we would appreciate providing credit. And, optionally, dropping us a note if you found them useful.
