@@ -6,10 +6,11 @@ nav_order: 2
 
 # Text
 
-Latest draft, July 28, 2023: [<img src="images/book-img.png" width="100">](book/gentlenlp-book-07282023.pdf)
+Latest draft, December 15, 2024: [<img src="images/book-img.png" width="100">](book/gentlenlp-book-12152024.pdf)
 
 # Changes
 
+* **12/15/2024:** Corrected equations 16.1 and 16.2.
 * **07/28/2023:** Improved index.
 * **06/30/2023:** Many small changes. I think we're done?
 * **06/16/2023:** One full pass over the text until chapter 11 (including). Fixed several embarrassing mistakes, typos, and grammatical issues. 
