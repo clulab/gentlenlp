@@ -1,7 +1,7 @@
 ---
 title: Code from Chapter 9
 has_children: false
-nav_order: 7
+nav_order: 8
 ---
 
 # Word Similarity and Analogy

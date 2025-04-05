@@ -1,7 +1,7 @@
 ---
 title: Code from Chapter 11
 has_children: false
-nav_order: 8
+nav_order: 9
 ---
 
 # Part-of-speech Tagging with Recurrent Neural Networks
