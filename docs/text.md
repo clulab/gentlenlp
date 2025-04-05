@@ -8,6 +8,8 @@ nav_order: 2
 
 Latest draft, December 15, 2024: [<img src="images/book-img.png" width="100">](book/gentlenlp-book-12152024.pdf)
 
+See the Errata page for corrections to the text and code made after the camera ready.
+
 # Changes
 
 * **12/15/2024:** Corrected equations 16.1 and 16.2.
