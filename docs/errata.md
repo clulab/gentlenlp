@@ -16,4 +16,4 @@ nav_order: 3
 
 # Acknowledgements
 
-We thank the following people for discovering these mistakes: Michael Lewis, Minglai Yang.
+We thank the following people for discovering these mistakes: Mike Maxwell, Minglai Yang.

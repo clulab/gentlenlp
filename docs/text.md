@@ -6,12 +6,13 @@ nav_order: 2
 
 # Text
 
-Latest draft, December 15, 2024: [<img src="images/book-img.png" width="100">](book/gentlenlp-book-12152024.pdf)
+Latest version, April 5, 2025: [<img src="images/book-img.png" width="100">](book/gentlenlp-book-04052025.pdf)
 
 See the Errata page for corrections to the text and code made after the print version.
 
 # Changes
 
+* **04/05/2025:** Fixed multiple mistakes discovered by Mike Maxwell (see Errata).
 * **12/15/2024:** Corrected equations 16.1 and 16.2.
 * **07/28/2023:** Improved index.
 * **06/30/2023:** Many small changes. I think we're done?
