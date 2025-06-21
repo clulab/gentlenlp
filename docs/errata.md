@@ -8,6 +8,7 @@ nav_order: 3
 
 * **06/21/2025:**
     - In cell 20 in `chap09_classification.ipynb` changed this line: `max_tokens = dev_df['tokens'].map(len).max()` to `max_tokens = test_df['tokens'].map(len).max()`.
+    - Changed to the `evaluate` library for the `sacrebleu` evaluation metric in cell 8 in `chap15_translation_en_to_ro.ipynb`, cell 8 in `chap15_translation_ro_to_en.ipynb`, cell 9 in `chap15_translation_ro_to_en_finetune.ipynb`, and cell 8 in `chap15_translation_ro_to_en_finetuned.ipynb`.
     
 
 * **04/05/2025:**
