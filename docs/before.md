@@ -56,6 +56,8 @@ For binary classification we used the [Large Movie Review Dataset](https://ai.st
 
 For multiclass classification we used a version of the [AG News dataset](http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html). In particular, we used the simplified form of the dataset from the paper [Character-level Convolutional Networks for Text Classification](https://proceedings.neurips.cc/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf), which keeps only the four most frequent labels. The license for this dataset does not allow redistribution, so please download the archive `ag_news_csv.tar.gz` yourself from [here](https://drive.google.com/drive/u/0/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M?resourcekey=0-TLwzfR2O-D2aPitmn5o9VQ). Uncompress the downloaded file, and copy the `ag_news_csv` folder under `notebooks/data/` in your repository.
 
+June 2025 update: Note that the current version of the AG News dataset has over 1M articles. In our code we used a version with only 120K examples. Mike Maxwell wrote a Python program that subsets the latest data, splits it into test and train, and converts from the original format into the the programs in this book are expecting. You can download his code [here](https://github.com/clulab/gentlenlp/blob/main/notebooks/DataConverter4MulticlassLearning.py).
+
 ## Pre-trained English Word Embeddings
 
 Please download the [these GloVe embeddings](https://nlp.stanford.edu/data/glove.6B.zip) from the [Stanford GloVe website](https://nlp.stanford.edu/projects/glove/). Once the `glove.6B.zip` file is downloaded, uncompress it and place the extracted `glove.6B.300d.txt` file in the `notebooks/` folder.
