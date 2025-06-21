@@ -9,8 +9,8 @@ nav_order: 3
 * **06/21/2025:**
     - In cell 20 in `chap09_classification.ipynb` changed this line: `max_tokens = dev_df['tokens'].map(len).max()` to `max_tokens = test_df['tokens'].map(len).max()`.
     - Changed to the `evaluate` library for the `sacrebleu` evaluation metric in cell 8 in `chap15_translation_en_to_ro.ipynb`, cell 8 in `chap15_translation_ro_to_en.ipynb`, cell 9 in `chap15_translation_ro_to_en_finetune.ipynb`, and cell 8 in `chap15_translation_ro_to_en_finetuned.ipynb`.
+    - In cell 10 in `chap15_translation_ro_to_en_finetune.ipynb` changed the parameter name `evaluation_strategy` to `eval_strategy`.
     
-
 * **04/05/2025:**
     - Corrected the implementation of `remove_diacritics()` in Appendix B, which should contain `if not unicodedata.combining(c)` rather than `if unicodedata.combining(c)`.
     - Corrected the book URL in the first paragraph of Chapter 4 to use `https` instead of `http`.
