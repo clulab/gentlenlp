@@ -13,6 +13,7 @@ Create and activate the conda environment for the book:
 ```
 conda create --name book
 conda activate book
+conda install pip
 ```
 
 Install PyTorch by selecting the appropriate parameters on this page: [https://pytorch.org](https://pytorch.org). Note that if your computer has a Nvidia GPU, you should select one of the CUDA versions for Compute Platform (ideally, the most recent one). 
@@ -26,13 +27,12 @@ For a Linux machine with an Nvidia GPU, the configuration should look like this:
 Then, run the indicated command. For example, for Macs the command generated is:
 
 ```
-conda install pytorch::pytorch torchvision torchaudio -c pytorch
+pip3 install torch torchvision
 ```
 
 Lastly, install a few more needed packages:
 ```
 conda install torchtext
-conda install pip
 conda install jupyter pandas matplotlib scikit-learn gensim nltk
 pip install conllu transformers datasets
 pip install accelerate -U
