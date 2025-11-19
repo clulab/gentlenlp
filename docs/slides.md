@@ -15,7 +15,7 @@ nav_order: 4
 * [Chapter 8](slides/nnintro-ch8-dist.pptx) (last modified: 10/22/2025)
 * [Chapter 10](slides/nnintro-ch10-rnn.pptx) (last modified: 10/28/2025)
 * [Chapter 12](slides/nnintro-ch12-transformer.pptx) (last modified: 11/7/2024)
-* [Chapter 14](slides/nnintro-ch14-decoder.pptx) (last modified: 11/20/2024)
+* [Chapter 14](slides/nnintro-ch14-decoder.pptx) (last modified: 11/19/2025)
 * [Chapter 16](slides/nnintro-ch16.pptx) (last modified: 11/24/2024)
 
 # Slides for content not in the book
